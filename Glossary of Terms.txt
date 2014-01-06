@@ -1,0 +1,73 @@
+About Us - The place where the world clicks to learn more about Project6, its mission, and its founders: Albert, Beth & Devin.
+
+Analytics, User based (Phase two) - Data about usage or patterns about the user such as hours spent on a project or days left until a project is due. 
+
+Analytics View (Phase two) - The web interface where the user can find details about their usage and data about their projects
+
+Analytics, Project based (Phase two) - Aggregated data about usage or patterns related to projects.
+
+Blog - A place for commentaries on Planit! from around the planet.
+
+Box It - Setting a time frame for a task.
+
+Break Down Warning (Phase two) -  This piece of the project is too big, break it down.
+
+Calendar / Schedule View - The web interface that displays the projects and tasks in a weekly or monthly view based on when they are scheduled.
+
+Contact Us - The first place a Planit! user will go to find information about the team at Project6 and how to contact us.   Email The second place would be Devin's mobile number for the 24/7 hotline.
+
+Cumulative Time - When a task is initiated, the time is zero.  As time progresses, "Cumulative Time" increases to give a realistic view of the time invested in the task.
+
+Due Date - The end of the line for the project.  A date defined by the user to show when the project should be completed.
+
+Effort - The user determines an energy level setting for a task as high, medium, or low.  If none is given by the user, then it will default to medium.
+
+Estimated Duration - A guess given by the user on how long they think a task will take to complete.  If none is given, it will default to zero and all the fab Planit! Points functionality will not be functional. Devin is concerned that the default is zero
+
+Help - The link that directs users to help on how to sign up, log in, how to retrieve forgotten usernames and passwords, with links to: Try it (How To Use) and  FAQ's
+
+Home - After the user has logged in, the portal to exploring Planit! with the following views: Tree View, Outline View, Calendar or Schedule View and Task View.
+1/3/2014 stopping point
+Login - The Log In area of the Home View will allow for logging in directly or through a social network like Facebook.  There will be a link under the Direct Log In area in case the user forgets their Username or Password that links to help in accessing that information.  There shall be a Log In button that submits the Username and Password, a Join Now button that links to the view below the fold where a potential user can sign up and a button to log in through Facebook.  There shall be a Help link for directions on using the Log In, Forgotten Username or Password, and FAQ’s about Planit.
+
+Millipede View (Phase two)
+
+Notifications - Alerts to warn the user of project due dates, burning the candle on both ends and impending doom.
+
+Outline View -   The web interface that displays the projects and tasks  as an outline.
+
+Overload Warning  (Phase two) - Danger, Danger Will Robinson! You are overscheduled and can't possibly get it all done in time!
+
+Planit! - A web based time management tool that leverages the web to take your larger project and break it down into smaller task so that you stay motivated to complete the larger project.
+
+Planit! Points - Used to calculate by a super-secret algorithm that takes effort, priority and estimated duration to tell the user if they are crazy.
+
+Priority - The functionality that allows the user to set the priority of the tasks, including high, medium, and low. 
+
+Privacy - Mumbo jumbo to be determined.
+
+Project - A chunk of work too large to swallow whole.
+
+Reminder Settings - The functionality that allows the user to set the reminder date and time.  If no date is set, it will default to null. 
+
+Ribbon - Menu of functionality that is available in multiple views. 
+
+Snooze Reminders (Phase two)
+
+Task - A bite size piece of a larger project.
+
+Task View - The web interface that displays projects broken down into bite size pieces.
+
+Terms and Conditions - Mumbo jumbo to be determined.
+
+Time Budget (Phase two)
+
+Top View - Welcome
+
+Tree View The web interface that displays the projects and tasks in as a hierarchical  representation of edges and  nodes. (leaves and branches?)
+
+User Settings - Have we even listed what these are??
+
+View - A visual, textual or data centric representation of the project or task.
+
+
