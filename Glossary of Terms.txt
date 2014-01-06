@@ -28,7 +28,7 @@ Help - The link that directs users to help on how to sign up, log in, how to ret
 
 Home - After the user has logged in, the portal to exploring Planit! with the following views: Tree View, Outline View, Calendar or Schedule View and Task View.
 1/3/2014 stopping point
-Login - The Log In area of the Home View will allow for logging in directly or through a social network like Facebook.  There will be a link under the Direct Log In area in case the user forgets their Username or Password that links to help in accessing that information.  There shall be a Log In button that submits the Username and Password, a Join Now button that links to the view below the fold where a potential user can sign up and a button to log in through Facebook.  There shall be a Help link for directions on using the Log In, Forgotten Username or Password, and FAQ’s about Planit.
+Login - [Devin Made Changes]The Log In area of the Home View will allow for logging in directly or through a social network like Facebook.  There will be a link under the Direct Log In area in case the user forgets their Username or Password that links to help in accessing that information.  There shall be a Log In button that submits the Username and Password, a Join Now button that links to the view below the fold where a potential user can sign up and a button to log in through Facebook.  There shall be a Help link for directions on using the Log In, Forgotten Username or Password, and FAQï¿½s about Planit.
 
 Millipede View (Phase two)
 
