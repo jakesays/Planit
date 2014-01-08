@@ -39,7 +39,7 @@ Notifications - Alerts to warn the user of an issue that requres attention: proj
 
 Outline View -   The web interface that displays the projects and tasks  as an outline.
 
-Overload Warning  (Phase two) - Danger, Danger Will Robinson! You are overscheduled and can't possibly get it all done in time! 
+Overload Warning  (Phase two)(a notification type) - Danger, Danger Will Robinson! You are overscheduled and can't possibly get it all done in time! 
 
 Planit! - A web based time management tool that takes your larger project and breaks it down into smaller tasks so you stay motivated and complete the larger project.
 
