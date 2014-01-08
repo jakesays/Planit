@@ -1,10 +1,10 @@
 About Us - The place where the world clicks to learn more about Project6, its mission, and its founders: Albert, Beth & Devin.
 
-Analytics, User based (Phase two) - Data about usage or patterns about the user such as hours spent on a project or days left until a project is due. 
+Analytics, User based (Phase two) - Data about usage or patterns about the user such as hours spent on a *project* or days left until a project is due. 
 
-Analytics View (Phase two) - The web interface where the user can find details about their usage and data about their projects
+Analytics View (Phase two) - The web interface where the user can find details about their usage and data about their *projects*
 
-Analytics, Project based (Phase two) - Aggregated data about usage or patterns related to projects.
+Analytics, Project based (Phase two) - Aggregated data about usage or patterns related to *projects*.
 
 Blog - A place for commentaries on Planit! from around the planet.
 
@@ -12,13 +12,13 @@ Box It - Setting a time frame for a task.
 
 Break Down Warning (Phase two) -  This piece of the project is too big, break it down.
 
-Calendar / Schedule View - The web interface that displays the projects and tasks in a weekly or monthly view based on when they are scheduled.
+Calendar / Schedule View - The web interface that displays the *projects* and tasks in a weekly or monthly view based on when they are scheduled.
 
 Contact Us - The first place a Planit! user will go to find information about the team at Project6 and how to contact us.   Email The second place would be Devin's mobile number for the 24/7 hotline.
 
 Cumulative Time - When a task is initiated, the time is zero.  As time progresses, "Cumulative Time" increases to give a realistic view of the time invested in the task.
 
-Due Date - The end of the line for the project.  A date defined by the user to show when the project should be completed.
+Due Date - The end of the line for the *project.*  A date defined by the user to show when the *project* should be completed.
 
 Effort - The user determines an strenuousness/energy level setting for a task as high, medium, or low.  If none is given by the user, then it will default to medium.
 
@@ -31,33 +31,33 @@ Home - After the user has logged in, the portal to exploring Planit! with the fo
 Login - Where users login or signup.
 The Log In area of the Home View will allow for logging in directly or through a social network like Facebook.  There will be a link under the Direct Log In area in case the user forgets their Username or Password that links to help in accessing that information.  There shall be a Log In button that submits the Username and Password, a Join Now button that links to the view below the fold where a potential user can sign up and a button to log in through Facebook.  There shall be a Help link for directions on using the Log In, Forgotten Username or Password, and FAQ�s about Planit.
 
-Millipede View (Phase two)
+[DGLAMBERT] Millipede View (Phase two)
 
 Navigation Bar - Menu of functionality that is available in multiple views. 
 
-Notifications - Alerts to warn the user of an issue that requres attention: project due dates, burning the candle at both ends and impending doom.
+Notifications - Alerts to warn the user of an issue that requires attention: task due dates, burning the candle at both ends and impending doom.
 
-Outline View -   The web interface that displays the projects and tasks  as an outline.
+Outline View - The web interface that displays the *projects* and tasks  as an outline.
 
 Overload Warning  (Phase two)(a notification type) - Danger, Danger Will Robinson! You are overscheduled and can't possibly get it all done in time! 
 
 Planit! - A web based time management tool that takes your larger project and breaks it down into smaller tasks so you stay motivated and complete the larger project.
 
-Planit! Points - A super-secret algorithm that helps the user evaluate the relative size of a project so they can determine if they are crazy to commit to it.
+[DGLAMBERT] Planit! Points - A super-secret algorithm that helps the user evaluate the relative size of a project so they can determine if they are crazy to commit to it.
 
 Priority - A measure of relative importance compared to other task. Possible options include: High, Medium, Low
 
-Privacy - Mumbo jumbo to be determined.
+Privacy - Mumbo jumbo legal jargon where you can find out how Planit handles data. www.Planit.Proj6.com/Privacy
 
-Project - A chunk of work too large to swallow whole.
+[DGLAMBERT] Project - A chunk of work too large to swallow whole.
 
-Reminder Settings - The functionality that allows the user to set the reminder date and time.  If no date is set, it will default to null. 
+Reminder (a notification type) - Functionality that allows the user to schedule a reminder for a task. 
 
-Snooze Reminders (Phase two) - Just like your alarm clock snooze button, you can postpone a deadline.
+Snooze Reminders (Phase two) - Just like your alarm clock snooze button, you can postpone a due date.
 
-Task - A bite size piece of a larger project.
+[DGLAMBERT] Task - A bite size piece of a larger project.
 
-Task View - The web interface that displays projects broken down into bite size pieces.
+Task View - The web interface that displays the tasks by day.
 
 Terms and Conditions - Mumbo jumbo legal jargon where you can find out how Planit is intended to be used by its users. www.planit.proj6.com/toc
 
@@ -65,10 +65,10 @@ Time Budget (Phase two) - The bank of time you are able to draw from for schedul
 
 Tree - The hierarchical model of a users tasks, displayed using a parent child relationship.
 
-Tree View - The web interface that displays the projects and tasks in as a tree.
+Tree View - The web interface that displays the *projects* and tasks in as a tree.
 
 User Settings - Preference controls for Planit that each users sets based on their individual account.
 
-View - A visual, textual or data centric representation of the project or task.
+View - A visual, textual or data centric representation of the *project* or task.
 
 
