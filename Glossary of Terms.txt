@@ -27,23 +27,25 @@ Estimated Duration - A guess given by the user on how long they think a task wil
 Help - The link that directs users to help on how to sign up, log in, how to retrieve forgotten usernames and passwords, with links to: Try it (How To Use) and  FAQ's
 
 Home - After the user has logged in, the portal to exploring Planit! with the following views: Tree View, Outline View, Calendar or Schedule View and Task View.
-1/3/2014 stopping point
+ 
 Login - Where users login or signup.
 The Log In area of the Home View will allow for logging in directly or through a social network like Facebook.  There will be a link under the Direct Log In area in case the user forgets their Username or Password that links to help in accessing that information.  There shall be a Log In button that submits the Username and Password, a Join Now button that links to the view below the fold where a potential user can sign up and a button to log in through Facebook.  There shall be a Help link for directions on using the Log In, Forgotten Username or Password, and FAQ�s about Planit.
 
 Millipede View (Phase two)
 
-Notifications - Alerts to warn the user of project due dates, burning the candle at both ends and impending doom.
+Navigation Bar - Menu of functionality that is available in multiple views. 
+
+Notifications - Alerts to warn the user of an issue that requres attention: project due dates, burning the candle at both ends and impending doom.
 
 Outline View -   The web interface that displays the projects and tasks  as an outline.
 
-Overload Warning  (Phase two) - Danger, Danger Will Robinson! You are overscheduled and can't possibly get it all done in time!
+Overload Warning  (Phase two) - Danger, Danger Will Robinson! You are overscheduled and can't possibly get it all done in time! 
 
-Planit! - A web based time management tool that takes your larger project and breaks it down into smaller tasks so that you stay motivated and complete the larger project.
+Planit! - A web based time management tool that takes your larger project and breaks it down into smaller tasks so you stay motivated and complete the larger project.
 
-Planit! Points - Calculated using a super-secret algorithm that takes effort, priority and estimated duration to tell the user if they are crazy.
+Planit! Points - A super-secret algorithm that helps the user evaluate the relative size of a project so they can determine if they are crazy to commit to it.
 
-Priority - The functionality that allows the user to set the priority of the tasks, including high, medium, and low. 
+Priority - A measure of relative importance compared to other task. Possible options include: High, Medium, Low
 
 Privacy - Mumbo jumbo to be determined.
 
@@ -51,23 +53,21 @@ Project - A chunk of work too large to swallow whole.
 
 Reminder Settings - The functionality that allows the user to set the reminder date and time.  If no date is set, it will default to null. 
 
-Ribbon - Menu of functionality that is available in multiple views. 
-
 Snooze Reminders (Phase two) - Just like your alarm clock snooze button, you can postpone a deadline.
 
 Task - A bite size piece of a larger project.
 
 Task View - The web interface that displays projects broken down into bite size pieces.
 
-Terms and Conditions - Mumbo jumbo to be determined.
+Terms and Conditions - Mumbo jumbo legal jargon where you can find out how Planit is intended to be used by its users. www.planit.proj6.com/toc
 
-Time Budget (Phase two) - 
+Time Budget (Phase two) - The bank of time you are able to draw from for scheduling tasks in a given time frame
 
-Top View - Welcome
+Tree - The hierarchical model of a users tasks, displayed using a parent child relationship.
 
-Tree View - The web interface that displays the projects and tasks in as a hierarchical  representation of edges and  nodes. (leaves and branches?)
+Tree View - The web interface that displays the projects and tasks in as a tree.
 
-User Settings - The user can optimize the way his projects are displayed.
+User Settings - Preference controls for Planit that each users sets based on their individual account.
 
 View - A visual, textual or data centric representation of the project or task.
 
