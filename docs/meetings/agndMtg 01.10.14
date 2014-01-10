@@ -2,3 +2,25 @@ Agenda
 
 Move Glossary to doc folder - Beth
 Discuss functional prototype meeting - Beth
+
+
+Discussion about time log - we'll go back 1/17 and analyze data and review
+Let's add the balsamiq mockups to github - Albert
+HTML 5 web architecture - Update Albert - 
+    Beth is going to go through to tutorial
+    
+
+The primary goal is to pull together the framework for our project.
+This is my proposed sequence of actions:
+
+using local host:
+run a login page 
+create a link that works
+integrate a balsamiq mockup page (XML?)
+create a login to write to a local database
+be able to login using that created login
+Do a live hosted test.
+
+This is a "does it work" prototype.
+
+And a framework that would give us some structure for incremental work.
