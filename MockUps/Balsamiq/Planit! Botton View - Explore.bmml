@@ -1,0 +1,91 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1450" measuredH="750" mockupW="1405" mockupH="680">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="45" y="70" w="1405" h="680" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Explore%0Ahttp%3A//www.proj6.com/planit%21/Explore</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="91" y="186" w="-1" h="-1" measuredW="204" measuredH="63" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>60</size>
+        <text>Explore</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="1146" y="394" w="184" h="-1" measuredW="82" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>User%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="1146" y="434" w="185" h="-1" measuredW="70" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::RoundButton" x="1160" y="203" w="156" h="146" measuredW="32" measuredH="32" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="128" y="316" w="281" h="129" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <size>32</size>
+        <text>Get%20Stuff%20Done%21%0AHave%20Fun%21%0AWin%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="1184" y="227" w="109" h="98" measuredW="400" measuredH="400" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Planit%21%20Top%20View%20-%20Welcome%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221139%2C157%2C1248%2C255%22%20href%3D%22Planit%21%2520Top%2520View%2520-%2520Welcome.bmml%22%20alt%3D%22Planit%21%20Top%20View%20-%20Welcome%22%20id%3D%2213%22/%3E</map>
+        <src>../Senior%2520Project/WebImages/green-isolated-tree-clipart-2760002.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Arrow" x="1265" y="524" w="65" h="65" measuredW="150" measuredH="100" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>top</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::StickyNote" x="1240" y="580" w="162" h="107" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Clicking%20%22Start%20Planit%21%22%20creates%20a%20user%20profile%20and%20takes%20you%20to%20your%20home%20page%20%28Tree%20View%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Button" x="1146" y="506" w="-1" h="-1" measuredW="92" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Planit%21%20TreeView2%26bm%3BPlanit%21%20TreeView2.bmml%26bm%3BPlanit%21%20TreeView2.bmml%26bm%3BPlanit%21%20TreeView2.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221101%2C436%2C1193%2C463%22%20href%3D%22Planit%21%2520TreeView2.bmml%22%20alt%3D%22Planit%21%20TreeView2%22%20id%3D%2222%22/%3E</map>
+        <text>Start%20Planit%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::StickyNote" x="728" y="575" w="153" h="106" measuredW="109" measuredH="123" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Short%20video%20snipit%20introducing%20and%20giving%20a%20brief%20description%20of%20Planit%21%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Arrow" x="689" y="366" w="118" h="219" measuredW="150" measuredH="100" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <direction>top</direction>
+        <leftArrow>true</leftArrow>
+        <rightArrow>false</rightArrow>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::SubTitle" x="1146" y="364" w="-1" h="-1" measuredW="88" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sign%20Up</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="488" y="203" w="530" h="366" measuredW="300" measuredH="200" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::TextInput" x="1146" y="470" w="185" h="-1" measuredW="127" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Re-enter%20Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Image" x="494" y="210" w="512" h="320" measuredW="1024" measuredH="640" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../Senior%2520Project/WebImages/Despicable-Me-2-Movie-2013-Widescreen-1024x640.jpg</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

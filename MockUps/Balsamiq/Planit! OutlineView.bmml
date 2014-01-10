@@ -1,0 +1,105 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1450" measuredH="750" mockupW="1405" mockupH="680">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="45" y="70" w="1405" h="680" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Planit%21%0Ahttp%3A//www.proj6.com/planit%21/Devin%27sOutline</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::RoundButton" x="165" y="629" w="89" h="80" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="179" y="642" w="62" h="54" measuredW="400" measuredH="400" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Planit%21%20Top%20View%20-%20Welcome%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22134%2C572%2C196%2C626%22%20href%3D%22Planit%21%2520Top%2520View%2520-%2520Welcome.bmml%22%20alt%3D%22Planit%21%20Top%20View%20-%20Welcome%22%20id%3D%2213%22/%3E</map>
+        <src>../Senior%2520Project/WebImages/green-isolated-tree-clipart-2760002.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::ButtonBar" x="157" y="170" w="1169" h="33" measuredW="423" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Planit%21%20TreeView2%26bm%3BPlanit%21%20TreeView2.bmml%26bm%3BPlanit%21%20TreeView2.bmml%26bm%3BPlanit%21%20TreeView2.bmml%2CPlanit%21%20OutlineView%26bm%3BPlanit%21%20OutlineView.bmml%26bm%3BPlanit%21%20OutlineView.bmml%26bm%3BPlanit%21%20OutlineView.bmml%2CPlanit%21%20TaskView%26bm%3BPlanit%21%20TaskView.bmml%26bm%3BPlanit%21%20TaskView.bmml%26bm%3BPlanit%21%20TaskView.bmml%2CPlanit%21%20ScheduleView%26bm%3BPlanit%21%20ScheduleView.bmml%26bm%3BPlanit%21%20ScheduleView.bmml%26bm%3BPlanit%21%20ScheduleView.bmml%2C%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22112%2C100%2C252%2C133%22%20href%3D%22Planit%21%2520TreeView2.bmml%22%20alt%3D%22Planit%21%20TreeView2%22%20id%3D%2233%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22252%2C100%2C434%2C133%22%20href%3D%22Planit%21%2520OutlineView.bmml%22%20alt%3D%22Planit%21%20OutlineView%22%20id%3D%2233%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22434%2C100%2C577%2C133%22%20href%3D%22Planit%21%2520TaskView.bmml%22%20alt%3D%22Planit%21%20TaskView%22%20id%3D%2233%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22577%2C100%2C792%2C133%22%20href%3D%22Planit%21%2520ScheduleView.bmml%22%20alt%3D%22Planit%21%20ScheduleView%22%20id%3D%2233%22/%3E</map>
+        <selectedIndex>1</selectedIndex>
+        <text>Tree%2C%20Outline%2C%20Task%2C%20Schedule%2C%20Analytics%2C%20Notifications</text>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::SubTitle" x="297" y="634" w="105" h="-1" measuredW="102" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>About%20Us</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::SubTitle" x="472" y="634" w="90" h="-1" measuredW="88" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Contact</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::SubTitle" x="671" y="634" w="49" h="-1" measuredW="49" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Help</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::SubTitle" x="818" y="634" w="67" h="-1" measuredW="66" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Social</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::SubTitle" x="964" y="631" w="218" h="-1" measuredW="214" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Terms%20%26%20Conditions</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="86" controlTypeID="com.balsamiq.mockups::SubTitle" x="1231" y="634" w="80" h="-1" measuredW="79" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Planit%21%20Privacy%26bm%3BPlanit%21%20Privacy.bmml%26bm%3BPlanit%21%20Privacy.bmml%26bm%3BPlanit%21%20Privacy.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221186%2C564%2C1266%2C591%22%20href%3D%22Planit%21%2520Privacy.bmml%22%20alt%3D%22Planit%21%20Privacy%22%20id%3D%2286%22/%3E</map>
+        <text>Privacy</text>
+        <underline>true</underline>
+      </controlProperties>
+    </control>
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Paragraph" x="297" y="661" w="130" h="80" measuredW="200" measuredH="80" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Mission%20Statement%0AOur%20Team%0ABlog</text>
+      </controlProperties>
+    </control>
+    <control controlID="90" controlTypeID="com.balsamiq.mockups::Paragraph" x="472" y="661" w="137" h="80" measuredW="200" measuredH="80" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Contact%20Us%0AFeedback%0AReport%20a%20Problem</text>
+      </controlProperties>
+    </control>
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Paragraph" x="671" y="661" w="95" h="80" measuredW="200" measuredH="80" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Try%20It%0AFAQ</text>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Paragraph" x="818" y="661" w="90" h="80" measuredW="200" measuredH="80" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Facebook%0ATwitter</text>
+      </controlProperties>
+    </control>
+    <control controlID="93" controlTypeID="com.balsamiq.mockups::FieldSet" x="387" y="212" w="923" h="394" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>11982760</color>
+        <text>Devin%27s%20Tree</text>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::Paragraph" x="429" y="236" w="333" h="379" measuredW="200" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Title%0A%09-%20First%20subtopic%0A%09%09-%20First%20Point%0A%09%09%09Supporting%20Point%0A%09%09%09Supporting%20Point%0A%09%09+%20Second%20Point%0A%09%09%09%0A%09-%20Second%20subtopic%0A%09%09-%20First%20Point%0A%09%09%09Supporting%20Point%0A%09%09%09Supporting%20Point%0A%09%09+%20Second%20Point%0A%09%09%09%0A%09+%20Conclusion</text>
+      </controlProperties>
+    </control>
+    <control controlID="102" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="1294" y="218" w="-1" h="388" measuredW="16" measuredH="100" zOrder="16" locked="false" isInGroup="-1"/>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::Menu" x="165" y="236" w="207" h="-1" measuredW="150" measuredH="370" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Today%0ACall%20Steph%0ASkype%20Meeting%0A---%0ATomorrow%0AWash%20Steph%27s%20car%0A%3D%0AWednesday%0ACode%20CSC500%20Project%0ADry%20Cleaners%0A---%0AThursday%0ADebug%20Planit%21%0A---%0AFriday%0ATGIF%0A----%0ASaturday%0ASkype%20Meeting%0A----%0ASunday%0A%20%0A%20%0A%20</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
