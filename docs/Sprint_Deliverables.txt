@@ -1,11 +1,21 @@
-============= 01/14/14 - 01/21/14 ==========================================================================
-To be determined...
+==Sprint 1 =========== 01/14/14 - 01/21/14 ==========================================================================
+[Deliverable] 		        [Contributer]		    	[Completed]
+
+Requirements Doc    
+
+1ST Hackathon
+  Proof of Concept
+  
+Use Case
 
 ============= 01/07/14 - 01/14/14 ==========================================================================
 
 [Deliverable] 		        [Contributer]		    	[Completed]
 Home Made Ice Cream       		Albert             	 		
 Completed Glossary of Terms     	Devin & Beth            		Completed
-Updated Time Log                	Beth                    
+Updated Time Log                	Beth                        Completed               
 Updated Problem Spec           	 	Albert
 Updated mockups                 	Albert
+
+=============================================================================================================
+
