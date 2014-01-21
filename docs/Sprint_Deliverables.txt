@@ -1,3 +1,13 @@
+==Sprint 2 =========== 01/21/14 - 01/28/14 ==========================================================================
+Use Case 
+
+2nd Hack
+
+What went well
+not so well
+different
+
+
 ==Sprint 1 =========== 01/14/14 - 01/21/14 ==========================================================================
 [Deliverable] 		        [Contributer]		    	[Completed]
 
@@ -7,6 +17,11 @@ Requirements Doc
   Proof of Concept
   
 Use Case
+
+What went well- Hack - shared research - 
+not so well - inexperience
+different - not obviously
+next sprint - see planning above
 
 ============= 01/07/14 - 01/14/14 ==========================================================================
 
