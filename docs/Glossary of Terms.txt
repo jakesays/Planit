@@ -1,4 +1,4 @@
-About Us - The place where the world clicks to learn more about Project6, its mission, and its founders: Albert, Beth & Devin.
+﻿About Us - The place where the world clicks to learn more about Project6, its mission, and its founders: Albert, Beth & Devin.
 
 Analytics, User based (Phase two) - Data about usage or patterns about the user such as hours spent on a *project* or days left until a project is due. 
 
@@ -53,6 +53,8 @@ Privacy - Mumbo jumbo legal jargon where you can find out how Planit handles dat
 
 Reminder (a notification type) - Functionality that allows the user to schedule a reminder for a task. 
 
+Scenario - A use case provides a generic description of the overall functionality; a scenario is a specific instantiation of a use case. In general there are a larger number of scenarios, each representing one specific set of interactions. 
+
 Snooze Reminders (Phase two) - Just like your alarm clock snooze button, you can postpone a due date.
 
 [DGLAMBERT] Task - A bite size piece of a larger project.
@@ -66,6 +68,8 @@ Time Budget (Phase two) - The bank of time you are able to draw from for schedul
 Tree - The hierarchical model of a users tasks, displayed using a parent child relationship.
 
 Tree View - The web interface that displays the *projects* and tasks in as a tree.
+
+Use Case - A use case models an interaction between the software product itself and the users of that software product (actors). The label inside the ovals describe the buisness activities represented by the use case.
 
 User Settings - Preference controls for Planit that each users sets based on their individual account.
 
