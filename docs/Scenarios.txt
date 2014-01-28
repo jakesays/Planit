@@ -1,34 +1,60 @@
  Planit scenarios			1/23/2104
 Register
-Traditional
-	From top half of Welcome page
-	click on the Join Now button
-	it takes you to bottom half of the Welcome page
-	You’ll see Sign Up are with input text boxes for:
-		User Name, Password, Re-enter Password and Submitting (Start Planit!)
-	That will create a User account
-Facebook/twitter (does this just sign you in, or can you register using facebook/twitter?)
-	From top half of Welcome page
-	click on Facebook button 
-(Once we implement this library we can see how much we need to reveal to use the authentication through	 facebook )
+	Traditional:
+	From Login section of Welcome page
+	User clicks on the Join Now button
+	Result: go to register section of the Welcome page
+	User enters:  User Name, Email, Password, Re-enter Password and clicks Start Planit! (Submit)
+	Result:  create a User account
+	User is taken to the "first time use functionality" of Tree View page 
+		(with greyed out catagories to "click if you want it")
+
+	Social: 
+	From Login section of Welcome page
+	click on Social Login button 
+	User is authenticated through the social site
+	User clicks Start Planit!
+	User is taken to the "first time use functionality" of Tree View page 
+		(with greyed out catagories to "click if you want it")
 	
 Login
-	From the top half of the Welcome page
-	type in your User Name & Password
-	decide if you want your user name and password to be remembered 
-	click on the Log In button
+	Traditional:
+	From the Login section of the Welcome page
+	User enters:  User Name & Password
+	User checks remember me button or not 
+	User clicks the Login button
+	Store remember me preference
+	User taken to Tree View page
+	Or
+	User is taken to the "first time use functionality" of Tree View page 
+		(with greyed out catagories to "click if you want it") if they have not created any projects
 
-	Can we log in or register using Facebook/twitter?  Which one?
-Create a project (what about a simple “Create Project” button?)
-	From the Log In Screen, Log in
+	
+	Social Login: 
+	From Login section of Welcome page
+	click on Social Login button 
+	User is authenticated through the social site
+	User is returned to the registration page
+	User clicks Start Planit!
+	User is taken to Tree View page
+	or
+	User is taken to the "first time use functionality" of Tree View page 
+		(with greyed out catagories to "click if you want it") if they have not created any projects
+	
+
+Create a project 
+	From the Login Screen, Login
 	This will take you to the Tree View page or maybe to the analytics (dashboard) page
 	Navigate to the root or project that you want to create a project from 
 Hover over the project / task to have sub menu appear
 click and select Create Project
 window pops up to name, select start, end date (slot machine type selection) and color code it
+
 Continue working on an existing project
-	From the Log In Screen, Log in
+	From the Login Screen, Login
 	This will take you to the Tree View page or maybe to the analytics (dashboard) page
 	Navigate to the root or project that you want to continue working on 
+
 View project progress 
+
 Change your project
