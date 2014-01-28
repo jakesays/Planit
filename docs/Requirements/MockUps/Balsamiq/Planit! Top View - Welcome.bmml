@@ -63,7 +63,7 @@
       <controlProperties>
         <href>Planit%21%20Botton%20View%20-%20Explore%26bm%3BPlanit%21%20Botton%20View%20-%20Explore.bmml%26bm%3BPlanit%21%20Botton%20View%20-%20Explore.bmml%26bm%3BPlanit%21%20Botton%20View%20-%20Explore.bmml</href>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22515%2C204%2C850%2C527%22%20href%3D%22Planit%21%2520Botton%2520View%2520-%2520Explore.bmml%22%20alt%3D%22Planit%21%20Botton%20View%20-%20Explore%22%20id%3D%2213%22/%3E</map>
-        <src>../Senior%2520Project/WebImages/green-isolated-tree-clipart-2760002.jpg</src>
+        <src>./green-isolated-tree-clipart-2760002.jpg</src>
       </controlProperties>
     </control>
     <control controlID="16" controlTypeID="com.balsamiq.mockups::StickyNote" x="467" y="453" w="135" h="134" measuredW="109" measuredH="123" zOrder="12" locked="false" isInGroup="-1">
