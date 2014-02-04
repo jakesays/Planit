@@ -37,7 +37,7 @@
       <controlProperties>
         <href>Planit%21%20Top%20View%20-%20Welcome%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml%26bm%3BPlanit%21%20Top%20View%20-%20Welcome.bmml</href>
         <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221139%2C157%2C1248%2C255%22%20href%3D%22Planit%21%2520Top%2520View%2520-%2520Welcome.bmml%22%20alt%3D%22Planit%21%20Top%20View%20-%20Welcome%22%20id%3D%2213%22/%3E</map>
-        <src>../Senior%2520Project/WebImages/green-isolated-tree-clipart-2760002.jpg</src>
+        <src>./green-isolated-tree-clipart-2760002.jpg</src>
       </controlProperties>
     </control>
     <control controlID="18" controlTypeID="com.balsamiq.mockups::Arrow" x="1265" y="524" w="65" h="65" measuredW="150" measuredH="100" zOrder="13" locked="false" isInGroup="-1">
@@ -84,7 +84,7 @@
     </control>
     <control controlID="30" controlTypeID="com.balsamiq.mockups::Image" x="494" y="210" w="512" h="320" measuredW="1024" measuredH="640" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>../Senior%2520Project/WebImages/Despicable-Me-2-Movie-2013-Widescreen-1024x640.jpg</src>
+        <src>./Despicable-Me-2-Movie-2013-Widescreen-1024x640.jpg</src>
       </controlProperties>
     </control>
   </controls>
