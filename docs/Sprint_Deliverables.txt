@@ -1,11 +1,24 @@
+==Sprint 4 =========== 02/04/14 - 02/11/14 ==========================================================================
+Use Case 
+
+==Sprint 3 =========== 01/28/14 - 02/04/14 ==========================================================================
+Scenarios
+
+3rd Hack - field trip for TDD Randori with Software craftmanship meetup
+
+What went well -
+not so well - a bit of analysis paralysis. we keep hoping we'll know enough to get started, only to recognize there 
+is more to learn. 
+different - just start with something smal and keep moving forward with good enough. formalize our schedule more.
+
 ==Sprint 2 =========== 01/21/14 - 01/28/14 ==========================================================================
 Use Case 
 
-2nd Hack
+2nd Hack - successfully got MVC Azure hosted website up with login and 3rd party authentication
 
-What went well
-not so well
-different
+What went well - worked well together
+not so well - took a while to decide how to approach task and get going.
+different - having a working view of what we want to accomplish in prioritized order 
 
 
 ==Sprint 1 =========== 01/14/14 - 01/21/14 ==========================================================================
