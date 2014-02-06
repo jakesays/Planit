@@ -35,6 +35,8 @@ Login
 	click on Social Login button 
 	User is authenticated through the social site
 	User is returned to the registration page
+
+
 	User clicks Start Planit!
 	User is taken to Tree View page
 	or
@@ -43,18 +45,47 @@ Login
 	
 
 Create a project 
-	From the Login Screen, Login
-	This will take you to the Tree View page or maybe to the analytics (dashboard) page
+	 Tree View page 
 	Navigate to the root or project that you want to create a project from 
-Hover over the project / task to have sub menu appear
-click and select Create Project
-window pops up to name, select start, end date (slot machine type selection) and color code it
+	Users hovers over the target project / task 
+	Result: sub menu action icon/metaphor appears
+	User clicks "+" to Create Project
+	Result: window pops up to: 
+		name (required)
+		due date (slot machine type selection)(2/3 required)
+		start date
+		estimated duration
+		effort	(required)
+		priority (required)
+		Notes
+		reminder setting		
+		
+	User enters required information and submits
+	Result: project created
 
-Continue working on an existing project
-	From the Login Screen, Login
-	This will take you to the Tree View page or maybe to the analytics (dashboard) page
-	Navigate to the root or project that you want to continue working on 
+Edit your project
+	Tree View page 
+	User navigates to the project he wants to continue working on 
+	Users hovers over the target project / task 
+	Result: sub menu action icon/metaphor appears
+	user select "E" for edit
+	Result: project/task property panel appears
+	User enters desired changes.
+	User clicks save button.
+	Result: project/task is updated
+
+Delete an existing project
+	Tree View page 
+	User navigates to the project he wants to delete
+	Users hovers over the target project / task 
+	Result: sub menu action icon/metaphor appears
+	user select "D" for delete
+	Result: confirmation dialog appears
+	User clicks confirm button
+	Result: project/task is deleted
+
+Navigate to project
 
 View project progress 
 
-Change your project
+Update the status of a project
