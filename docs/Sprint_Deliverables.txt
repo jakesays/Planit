@@ -17,6 +17,7 @@ Use Case
 2nd Hack - successfully got MVC Azure hosted website up with login and 3rd party authentication
 
 What went well - worked well together
+	scenarios really helpful in working out details of pages
 not so well - took a while to decide how to approach task and get going.
 different - having a working view of what we want to accomplish in prioritized order 
 
@@ -33,6 +34,8 @@ Use Case
 
 What went well- Hack - shared research - 
 not so well - inexperience
+  we didn't have a clear definition of what we we were working on scenarios/use case and spent
+  a lot of time talking in circles
 different - not obviously
 next sprint - see planning above
 
