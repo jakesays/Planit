@@ -3,7 +3,8 @@ Use Case
 
 2nd Hack
 
-What went well
+What went well - hack
+    scenarios really helpful in working out details of pages
 not so well
 different
 
