@@ -1,4 +1,4 @@
- Planit scenarios			1/23/2104
+ Planit scenarios			1/23/201  4
 Register
 	Traditional:
 	From Login section of Welcome page
@@ -43,6 +43,8 @@ Login
 	User is taken to the "first time use functionality" of Tree View page 
 		(with greyed out catagories to "click if you want it") if they have not created any projects
 	
+Navigate to project - using compass points or ninja rock
+Navigate to project - clicking on project circle   
 
 Create a project 
 	 Tree View page 
@@ -74,7 +76,7 @@ Edit your project
 	User clicks save button.
 	Result: project/task is updated
 
-Delete an existing project
+Delete/Remove an existing project
 	Tree View page 
 	User navigates to the project he wants to delete
 	User hovers over the target project / task 
