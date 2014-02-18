@@ -95,6 +95,10 @@ publish/
 # Publish Web Output
 *.Publish.xml
 
+=======
+*.pubxml
+
+
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 #packages/
@@ -138,6 +142,8 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 
+=======
+
 # =========================
 # Windows detritus
 # =========================
@@ -152,5 +158,9 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+
 # Mac desktop service store files
+=======
+# Mac crap
+
 .DS_Store
