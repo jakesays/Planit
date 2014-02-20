@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
@@ -13,5 +14,8 @@ namespace Planit.Models
         public DateTime DueDate { get; set; }
 
         public DateTime StartDate { get; set; }
+    }
+    public class ProjectDBContext : ApplicationDbContext {
+        public DbSet<Project> Projects { get; set; }
     }
 }

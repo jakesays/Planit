@@ -13,6 +13,10 @@ namespace Planit.Controllers
             return View();
         }
 
+        public String Hello()
+        {
+            return "Hello, is it me you're looking for...";
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

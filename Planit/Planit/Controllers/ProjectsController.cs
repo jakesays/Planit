@@ -1,57 +1,23 @@
-﻿
-using Planit.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Entity;
-using System.Net;
-using System.Web.Mvc;
 using System.Linq;
+using System.Net;
+using System.Web;
+using System.Web.Mvc;
+using Planit.Models;
+
 namespace Planit.Controllers
 {
-
-
-
-    public class ProjectController : Controller
+    public class ProjectsController : Controller
     {
         private ProjectDBContext db = new ProjectDBContext();
 
         // GET: /Projects/
-        public ActionResult Index(string ProjectGenre, string searchString)
+        public ActionResult Index()
         {
-            //var GenreLst = new List<string>();
-
-            //var GenreQry = from d in db.Projects
-            //               orderby d.Genre
-            //               select d.Genre;
-
-            //GenreLst.AddRange(GenreQry.Distinct());
-            //ViewBag.ProjectGenre = new SelectList(GenreLst);
-
-            //var Projects = from m in db.Projects
-            //             select m;
-
-            //if (!String.IsNullOrEmpty(searchString))
-            //{
-            //    Projects = Projects.Where(s => s.Title.Contains(searchString));
-            //}
-
-            //if (!string.IsNullOrEmpty(ProjectGenre))
-            //{ 
-            //    Projects = Projects.Where(x => x.Genre == ProjectGenre);
-            //}
-
-            //return View(Projects);
-            return View();
-        }
-
-    //    public ActionResult Index()
-    //{
-    //    return View();
-    //}
-
-        public String Hello()
-        {
-            return "Hello";
+            return View(db.Projects.ToList());
         }
 
         // GET: /Projects/Details/5
@@ -80,16 +46,16 @@ namespace Planit.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="ID,Title,ReleaseDate,Genre,Price,Rating")] Project Project)
+        public ActionResult Create([Bind(Include="ID,Name,DueDate,StartDate")] Project project)
         {
             if (ModelState.IsValid)
             {
-                db.Projects.Add(Project);
+                db.Projects.Add(project);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(Project);
+            return View(project);
         }
 
         // GET: /Projects/Edit/5
@@ -112,15 +78,15 @@ namespace Planit.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="ID,Title,ReleaseDate,Genre,Price,Rating")] Project Project)
+        public ActionResult Edit([Bind(Include="ID,Name,DueDate,StartDate")] Project project)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(Project).State = EntityState.Modified;
+                db.Entry(project).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(Project);
+            return View(project);
         }
 
         // GET: /Projects/Delete/5
@@ -159,4 +125,3 @@ namespace Planit.Controllers
         }
     }
 }
-	
