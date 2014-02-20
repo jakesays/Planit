@@ -1,3 +1,15 @@
+==Sprint 6 =========== 02/18/14 - 02/25/14 ==========================================================================
+MVCMovie tutorial Start Planit
+
+==Sprint 5 =========== 02/11/14 - 02/18/14 ==========================================================================
+Use Case 
+
+What we learned - project documentation takes a lot of time and discipline 
+the time log and bibliography entries have been sporadic
+
+The farther we get into the project, the more we realize we don't know and it is hard to move forward.
+
+When you are not experienced, sometimes you just have to start and plan to refactor.
 ==Sprint 4 =========== 02/04/14 - 02/11/14 ==========================================================================
 Use Case 
 
