@@ -1,8 +1,9 @@
 ==Sprint 6 =========== 02/18/14 - 02/25/14 ==========================================================================
-MVCMovie tutorial Start Planit
+MVCMovie tutorial Start developing Planit
+local database
 
 ==Sprint 5 =========== 02/11/14 - 02/18/14 ==========================================================================
-Use Case 
+Design
 
 What we learned - project documentation takes a lot of time and discipline 
 the time log and bibliography entries have been sporadic
@@ -12,6 +13,7 @@ The farther we get into the project, the more we realize we don't know and it is
 When you are not experienced, sometimes you just have to start and plan to refactor.
 ==Sprint 4 =========== 02/04/14 - 02/11/14 ==========================================================================
 Use Case 
+Meet with Joe to discuss design so far
 
 ==Sprint 3 =========== 01/28/14 - 02/04/14 ==========================================================================
 Scenarios
@@ -21,7 +23,7 @@ Scenarios
 What went well -
 not so well - a bit of analysis paralysis. we keep hoping we'll know enough to get started, only to recognize there 
 is more to learn. 
-different - just start with something smal and keep moving forward with good enough. formalize our schedule more.
+different - just start with something small and keep moving forward with good enough. formalize our schedule more.
 
 ==Sprint 2 =========== 01/21/14 - 01/28/14 ==========================================================================
 Use Case 
