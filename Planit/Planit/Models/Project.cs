@@ -14,9 +14,11 @@ namespace Planit.Models
         public string UserID { get; set; }
 
         public int Depth { get; set; }
+        
         public string ParentID { get; set; }
 
         public string Description { get; set; }
+
         public DateTime DueDate { get; set; }
 
         public DateTime StartDate { get; set; }
