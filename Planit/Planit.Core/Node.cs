@@ -9,8 +9,8 @@ namespace Planit.Core
     public class Node<T>
     {
         public T data;
-        LinkedList<Node<T>> children;
-
+        public LinkedList<Node<T>> children;
+       
         public Node(T data)
         {
             this.data = data;
@@ -23,17 +23,27 @@ namespace Planit.Core
         }
 
         public bool hasChildren
-        { 
-            get {return children.Any();}
+        {
+            get { return children.Any(); }
         }
 
-        public Node<T> getChild(int i)
+        //public IEnumerable<Node<T>> getChildren()
+        //{
+        //    foreach (Node<T> n in children)
+        //        if (--i == 0)
+        //            return n;
+        //    return null;
+        //}
+
+        public IEnumerable<Node<T>> dfs(Node<T> node)
         {
-            foreach (Node<T> n in children)
-                if (--i == 0) 
-                    return n;
-            return null;
+            LinkedList<Node<T>>.Enumerator e = node.children.GetEnumerator();
+            while (e.MoveNext())
+            {
+                yield return e.Current;
+                dfs(e.Current); //if (e.Current.hasChildren) dfs(e.Current);
+            }
         }
-        
+
     }
 }
