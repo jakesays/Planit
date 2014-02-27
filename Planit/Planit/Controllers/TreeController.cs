@@ -24,7 +24,7 @@ namespace Planit.Controllers
                     rootEnumerator.MoveNext();
                     Node<Project> chores = rootEnumerator.Current;
                         chores.addChild(new Project { Description = "Gardening" });
-                        chores.addChild(new Project { Description = "Clean" });
+                        //chores.addChild(new Project { Description = "Clean" });
 
                         LinkedList<Node<Project>>.Enumerator choresEnumerator = chores.children.GetEnumerator();
                         choresEnumerator.MoveNext();
