@@ -8,37 +8,47 @@ namespace Planit.Core
 {
     public class Node<T>
     {
+        #region Fields
+        
         public T data;
-        public LinkedList<Node<T>> children;
-        public readonly int depth;
-       
+        public LinkedList<Node<T>> Children { get; private set; }
+        public int Depth { get; set; } // want this to be readonly
+        
+        #endregion 
+
+        #region Constructors
+
         public Node(T data)
         {
-            depth = 0;
+            Depth = 0;
             this.data = data;
-            children = new LinkedList<Node<T>>();
+            Children = new LinkedList<Node<T>>();
         }
 
         public Node(T data, Node<T> parent)
         {
-            depth = parent.depth + 1;
+            Depth = parent.Depth + 1;
             this.data = data;
-            children = new LinkedList<Node<T>>();
+            Children = new LinkedList<Node<T>>();
         }
+
+        #endregion
+
+        #region Methods
 
         public void addChild(T data)
         {
-            children.AddFirst(new Node<T>(data, this));
+            Children.AddFirst(new Node<T>(data, this));
         }
 
         public bool hasChildren
         {
-            get { return children.Any(); }
+            get { return Children.Any(); }
         }
 
         //public IEnumerable<Node<T>> getChildren()
         //{
-        //    foreach (Node<T> n in children)
+        //    foreach (Node<T> n in Children)
         //        if (--i == 0)
         //            return n;
         //    return null;
@@ -46,9 +56,9 @@ namespace Planit.Core
 
         public IEnumerable<Node<T>> dfs(Node<T> node)
         {
-            using(LinkedList<Node<T>>.Enumerator e = node.children.GetEnumerator())
+            using(LinkedList<Node<T>>.Enumerator e = node.Children.GetEnumerator())
             {
-                foreach (var noder in node.children) 
+                foreach (var noder in node.Children) 
                 { 
                     yield return noder; 
                     foreach (var child in dfs(noder)) 
@@ -63,7 +73,9 @@ namespace Planit.Core
             //{
             //    yield return e.Current;
             //    dfs(e.Current); //if (e.Current.hasChildren) dfs(e.Current);
-            //}
+        //}
+
+        #endregion 
 
     }
 }

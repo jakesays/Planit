@@ -20,13 +20,13 @@ namespace Planit.Controllers
                 root.addChild(new Project { Description = "School" });
                 root.addChild(new Project { Description = "Work" });
 
-                    LinkedList<Node<Project>>.Enumerator rootEnumerator = root.children.GetEnumerator();
+                    LinkedList<Node<Project>>.Enumerator rootEnumerator = root.Children.GetEnumerator();
                     rootEnumerator.MoveNext();
                     Node<Project> chores = rootEnumerator.Current;
                         chores.addChild(new Project { Description = "Gardening" });
                         //chores.addChild(new Project { Description = "Clean" });
 
-                        LinkedList<Node<Project>>.Enumerator choresEnumerator = chores.children.GetEnumerator();
+                        LinkedList<Node<Project>>.Enumerator choresEnumerator = chores.Children.GetEnumerator();
                         choresEnumerator.MoveNext();
                         Node<Project> gardening = choresEnumerator.Current;
 
