@@ -10,16 +10,25 @@ namespace Planit.Core
     {
         public T data;
         public LinkedList<Node<T>> children;
+        public readonly int depth;
        
         public Node(T data)
         {
+            depth = 0;
+            this.data = data;
+            children = new LinkedList<Node<T>>();
+        }
+
+        public Node(T data, Node<T> parent)
+        {
+            depth = parent.depth + 1;
             this.data = data;
             children = new LinkedList<Node<T>>();
         }
 
         public void addChild(T data)
         {
-            children.AddFirst(new Node<T>(data));
+            children.AddFirst(new Node<T>(data, this));
         }
 
         public bool hasChildren
