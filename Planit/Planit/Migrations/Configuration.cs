@@ -17,7 +17,7 @@ namespace Planit.Migrations
         protected override void Seed(Planit.Models.ProjectDBContext context)
         {
             Project school = new Project{   ID = 0001, UserID = "9999", Depth = 1, 
-                                            ParentID = null, Description = "School", 
+                                            ParentID = "0000", Description = "School", 
                                             DueDate =   new DateTime(2014, 5, 15),
                                             StartDate = new DateTime(2014, 2, 25)};
 
@@ -46,7 +46,7 @@ namespace Planit.Migrations
                                                     DueDate = new DateTime(2013, 5, 1),
                                                     StartDate = new DateTime( 2013, 2, 25)};
 
-                    Project Reading = new Project{   ID = 0009, UserID = "9999", Depth = 3, 
+                    Project Reading = new Project{   ID = 0009, UserID = "8888", Depth = 3, 
                                                     ParentID = "0004", Description = "Reading", 
                                                     DueDate = new DateTime(2013, 5, 15),
                                                     StartDate = new DateTime( 2013, 2, 25)};
@@ -63,7 +63,7 @@ namespace Planit.Migrations
 
 
             Project chores = new Project{   ID = 0002, UserID = "9999", Depth = 1, 
-                                            ParentID = null, Description = "Chores", 
+                                            ParentID = "0000", Description = "Chores", 
                                             DueDate =   new DateTime(2015, 1, 1),
                                             StartDate = new DateTime( 2014, 2, 25)};
                 
@@ -94,7 +94,7 @@ namespace Planit.Migrations
 
 
             Project work = new Project{   ID = 0003, UserID = "9999", Depth = 1, 
-                                            ParentID = null, Description = "Work", 
+                                            ParentID = "0000", Description = "Work", 
                                             DueDate =   new DateTime(2015, 1, 1),
                                             StartDate = new DateTime( 2014, 2, 25)};
 
