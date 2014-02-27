@@ -56,16 +56,13 @@ namespace Planit.Core
 
         public IEnumerable<Node<T>> dfs(Node<T> node)
         {
-            using(LinkedList<Node<T>>.Enumerator e = node.Children.GetEnumerator())
-            {
-                foreach (var noder in node.Children) 
+            foreach (var noder in node.Children) 
+            { 
+                yield return noder; 
+                foreach (var child in dfs(noder)) 
                 { 
-                    yield return noder; 
-                    foreach (var child in dfs(noder)) 
-                    { 
-                        yield return child; 
-                    } 
-                }
+                    yield return child; 
+                } 
             }
         }
 
