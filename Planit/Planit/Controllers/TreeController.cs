@@ -10,12 +10,10 @@ namespace Planit.Controllers
 {
     public class TreeController : Controller
     {
-        Node<Project> root;
+        Node<Project> root = new Node<Project>( new Project{Description = "Devin's Tasks"});
 
         void Seed()
         { 
-            root = new Node<Project>( new Project{Description = "Devin's Tasks"});
-    
                 root.addChild(new Project { Description = "Chores" });
                 root.addChild(new Project { Description = "School" });
                 root.addChild(new Project { Description = "Work" });
@@ -42,6 +40,7 @@ namespace Planit.Controllers
         // GET: /Tree/
         public ActionResult Index()
         {
+            IEnumerable<Node<Project>> test = root.dfs(root); // testing to make sure if root has no children it doesn't crash
             Seed();
             return View(root);
         }

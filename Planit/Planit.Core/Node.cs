@@ -9,7 +9,7 @@ namespace Planit.Core
     public class Node<T>
     {
         #region Fields
-        
+
         public T data;
         public LinkedList<Node<T>> Children { get; private set; }
         public int Depth { get; set; } // want this to be readonly
@@ -41,10 +41,10 @@ namespace Planit.Core
             Children.AddFirst(new Node<T>(data, this));
         }
 
-        public bool hasChildren
-        {
-            get { return Children.Any(); }
-        }
+        //public bool hasChildren
+        //{
+        //    get { return Children.Any(); }
+        //}
 
         //public IEnumerable<Node<T>> getChildren()
         //{
@@ -54,49 +54,44 @@ namespace Planit.Core
         //    return null;
         //}
 
-        public IEnumerable<Node<T>> dfs(Node<T> node)
+        public IEnumerable<Node<T>> dfs(Node<T> parent)
         {
-            foreach (var noder in node.Children) 
+            foreach (var child in parent.Children) 
             { 
-                yield return noder; 
-                foreach (var child in dfs(noder)) 
+                yield return child; 
+                foreach (var grandchild in dfs(child)) 
                 { 
-                    yield return child; 
+                    yield return grandchild; 
                 } 
             }
         }
 
-            //while (e.MoveNext())
-            //{
-            //    yield return e.Current;
-            //    dfs(e.Current); //if (e.Current.hasChildren) dfs(e.Current);
+        // 18WAFYSG0 implementation (iterative)
+        //public static IEnumerable<Node<T>> dsf(Node<T> node)
+        //{
+        //    Stack<IEnumerator<Node<T>>> stack = new Stack<IEnumerator<Node<T>>>();
+
+        //    IEnumerator<Node<T>> current;
+
+        //    stack.Push(node.Children.GetEnumerator());
+
+        //    while (stack.Count > 0)
+        //    {
+        //        current = stack.Pop();
+        //        while (current.MoveNext())
+        //        {
+        //            yield return current.Current;
+        //            if (current.Current.hasChildren)
+        //            {
+        //                stack.Push(current);
+        //                current = current.Current.Children.GetEnumerator();
+        //            }
+        //        }
+        //        current.Dispose();
+        //    }
         //}
 
         #endregion 
 
     }
 }
-
-//public static IEnumerable<Node<T>> dsf(Node<T> node)
-//{
-//    Stack<IEnumerator<Node<T>>> stack = new Stack<IEnumerator<Node<T>>>();
-
-//    IEnumerator<Node<T>> current;
-            
-//    stack.Push(node.Children.GetEnumerator());
-
-//    while(stack.Count > 0)
-//    {
-//        current = stack.Pop();
-//        while(current.MoveNext())
-//        {
-//            yield return current.Current;
-//            if (current.Current.hasChildren)
-//            {
-//                stack.Push(current);
-//                current = current.Current.Children.GetEnumerator();
-//            }
-//        }
-//        current.Dispose();
-//    }
-//}
