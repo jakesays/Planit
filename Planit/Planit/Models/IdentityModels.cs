@@ -13,5 +13,7 @@ namespace Planit.Models
             : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<Planit.Models.Project> Projects { get; set; }
     }
 }
