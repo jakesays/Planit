@@ -19,13 +19,9 @@ namespace Planit.Controllers
         {
             //var model = db.Projects.ToList();
             var model =
-                        //from r in db.Projects
-                        //orderby r.DueDate
-                        //select r;
-                        from projects in db.Projects
-                        orderby projects.ParentID
-                        select projects;
-                        
+                        from r in db.Projects
+                        orderby r.DueDate
+                        select r;
 
             return View(model);
             
