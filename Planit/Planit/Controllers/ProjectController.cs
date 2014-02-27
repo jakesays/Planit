@@ -17,11 +17,16 @@ namespace Planit.Controllers
         // GET: /Project/
         public ActionResult Index()
         {
-             //var model = db.Projects.ToList();
-            var model = 
-                from r in db.Projects
-                    orderby r.DueDate
-                    select r;
+            //var model = db.Projects.ToList();
+            var model =
+                        //from r in db.Projects
+                        //orderby r.DueDate
+                        //select r;
+                        from projects in db.Projects
+                        orderby projects.ParentID
+                        select projects;
+                        
+
             return View(model);
             
         }
