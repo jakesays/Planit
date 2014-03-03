@@ -8,20 +8,32 @@ using System.Web;
 using System.Web.Mvc;
 using Planit.Models;
 
+namespace WayCoolDataLayer.Contracts
+{
+    public interface IPlanitDataSurface
+    {
+        List<Project> GetProjectsByDueDate();
+        
+        Project GetProjectById(int id);
+        
+        int AddProject(Project newProject);
+        
+        void UpdateProject(Project udpatedProject);
+    }
+}
+
 namespace Planit.Controllers
 {
     public class ProjectController : Controller
     {
-        private ProjectDBContext db = new ProjectDBContext();
+        private IPlanitDataSurface _planitData = SomeFactory.CreatePlanitDataSurface();
 
         // GET: /Project/
         public ActionResult Index()
         {
             //var model = db.Projects.ToList();
-            var model =
-                        from r in db.Projects
-                        orderby r.DueDate
-                        select r;
+            var projects = _planitData.GetProjectsByDueDate();
+            var model = new SomeModel(projects);
 
             return View(model);
             
@@ -34,7 +46,7 @@ namespace Planit.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Project project = db.Projects.Find(id);
+            var project = _planitData.GetProjectById(id.Value);
             if (project == null)
             {
                 return HttpNotFound();
